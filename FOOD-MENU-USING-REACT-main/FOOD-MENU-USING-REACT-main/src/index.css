@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.upperheading{
+  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lowerheadings{
+  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-heading{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.orderBtn{
+  color: black;
+
+  padding: 10px;
+}
+
+.orderBtn:hover{
+  cursor: pointer;
+}
